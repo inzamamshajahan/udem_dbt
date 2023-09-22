@@ -5,6 +5,7 @@ models:
     columns:
 
      - name: listing_id
+       description: primary key for listing
        tests:
          - unique
          - not_null
